@@ -1,0 +1,39 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light gray background */
+        }
+        header {
+            background-color: #343a40; /* Dark gray header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .project {
+            background-color: #fff; /* White project card */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .project h2 {
+            margin-top: 0;
+            color: #343a40; /* Dark gray project title */
+        }
+        .project p {
+            margin-top: 10px;
+            color: #555; /* Dark gray project description */
+        }
+        .project a {
+            color: #007bff; /* Blue project link */
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
